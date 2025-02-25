@@ -1,0 +1,139 @@
+/* globals.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  background-color: #6200ea;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+.language-selector {
+  margin-top: 10px;
+}
+
+.language-selector select {
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: #3700b3;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 1.1rem;
+}
+
+.main-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.controls input,
+.controls select,
+.controls button {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.controls button {
+  background-color: #6200ea;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.controls button:hover {
+  background-color: #3700b3;
+}
+
+.preview-container {
+  margin-top: 20px;
+  text-align: center; /* Metni ortala */
+}
+
+.help-text {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.three-wrapper {
+  display: flex;
+  justify-content: center; /* Yatayda ortala */
+  align-items: center; /* Dikeyde ortala */
+  width: 100%;
+  max-width: 1200px; /* Maksimum genişlik */
+  height: 800px;
+  margin: 0 auto; /* Ortala */
+  border: 2px solid #ddd; /* Kenarlık ekle */
+  border-radius: 10px; /* Kenarları yuvarla */
+  overflow: hidden; /* Taşan içeriği kes */
+}
+
+#threeContainer {
+  width: 100%;
+  height: 100%;
+}
+
+.section {
+  margin: 40px 0;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.section h2 {
+  margin-top: 0;
+  color: #6200ea;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #3700b3;
+  color: white;
+  border-radius: 10px;
+  margin-top: 40px;
+}
